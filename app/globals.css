@@ -1,26 +1,77 @@
 @import "tailwindcss";
 
+/* Base theme variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --background: #F7F4EE;
+  --foreground: #1A1A1A;
+  --blue: #5C94BF;
 
-@theme inline {
-  --color-background: var(--background);
+
+
+
+  /* Typography scale */
+  --step--1: clamp(0.95rem, 0.82rem + 0.3vw, 1.05rem);
+  --step-0:  clamp(1rem, 0.9rem + 0.6vw, 1.2rem);
+  --step-1:  clamp(1.35rem, 1.05rem + 1.0vw, 1.65rem);
+  --step-2:  clamp(1.75rem, 1.2rem + 1.8vw, 2.25rem);
+  --step-3:  clamp(2.25rem, 1.5rem + 2.8vw, 3.1rem);
+  --step-4:  clamp(2.9rem, 1.8rem + 3.8vw, 4rem);
+
+  /* Line height + layout scale */
+  --lh-tight: 1.15;
+  --lh-normal: 1.45;
+  --lh-relaxed: 1.65;
+
+  --wrap: 2200px;
+  --pad: clamp(16px, 3vw, 48px);
+
+  /* Tailwind theme bridge */
+  /* --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: var(--font-geist-mono); */
 }
 
+  .font-playfair {
+  font-family: var(--font-playfair);
+}
+
+/* Dark mode adjustments
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
+/* Base body styles */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  margin-top: 10vh;
+  font-size: 7vw;
+  font-family: 'Playfair Display', serif; /* matches font-playfair */
+  color: var(--foreground);
+  margin-bottom: 3vh;
+}
+
+@layer components {
+  .p-section {
+    @apply pt-[5vh] text-center text-[5vw] mb-[5vh] lg:text-[3vw];
+  }
+}
+/* Fluid type + layout */
+/* h1 { font-size: var(--step-4); line-height: var(--lh-tight); } */
+/* h2 { font-size: var(--step-3); line-height: var(--lh-tight); } */
+/* h3 { font-size: var(--step-2); line-height: var(--lh-tight); } */
+/* p  { font-size: var(--step-0); line-height: var(--lh-relaxed); } */
+
+.section-wrap { 
+  max-width: var(--wrap); 
+  margin-inline: auto; 
+  padding-inline: var(--pad); 
 }
