@@ -95,7 +95,6 @@ San Diego Annuity Shop is an independent, local retirement income agency helping
             />
           </div>
         </div>
-
         <div className=" w-[75%]">
           <h2 className="font-playfair xl:text-[7vw] lg:mb-[100px]">
             Find your perfect protection + growth plan

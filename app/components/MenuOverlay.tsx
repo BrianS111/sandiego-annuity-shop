@@ -48,12 +48,12 @@ export default function MenuOverlay({ open, onClose }: MenuOverlayProps) {
         // open ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
       ].join(" ")}
     >
-      <div className="flex flex-col items-center relative w-full">
+      <div className="flex flex-col items-center relative w-full pt-4">
         <Link onClick={onClose} href="/">
           <Image
             src={logo}
             alt="san diego annuity shop"
-            className="absolute left-[0px] top-[-10px]  xl:left-[-15px] xl:top-[-25px] w-auto h-[90px] md:h-[150px] xl:h-[200px]"
+            className="absolute left-[5px] top-[5px]  xl:left-[0px] xl:top-[-10px] w-auto h-[70px] sm:h-[90px] md:h-[110px] lg-[h-130px] xl:h-[200px]"
             height={200}
           />
         </Link>
