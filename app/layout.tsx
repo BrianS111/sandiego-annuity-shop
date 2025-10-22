@@ -79,7 +79,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <main>{children}</main>
 
-        <footer className=" flex flex-col section-wrap pt-[3vh] w-[100%]  text-sm text-[var(--background)] bg-[var(--foreground)] h-[101vh] border-t border-slate-200 text-center relative z-90">
+        <footer className=" flex flex-col section-wrap pt-[3vh] w-[100%]  text-sm text-[var(--background)] bg-[var(--foreground)] h-[101vh] border-t border-slate-200 text-center relative z-100">
           <ul className="w-full  flex flex-col items-start gap-3">
             <li>(619) 357-6823</li>
             <li>brian@sandiegoannuityshop.com</li>
