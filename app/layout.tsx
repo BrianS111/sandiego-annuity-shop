@@ -50,8 +50,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body>
-        <div className="absolute z-80">
+      <body >
+        <div className="absolute z-100 ">
           <Header />
         </div>
 

@@ -8,7 +8,6 @@ import ellipse from "../../public/images/ellipse.png";
 import { Landmark } from "lucide-react";
 import Link from "next/link";
 
-
 export const metadata = {
   title: "Private Banking & Infinite Banking Strategies · San Diego Annuity Shop",
   description:
@@ -19,7 +18,7 @@ export default function Page() {
   return (
     <main>
       <Section>
-        <h1 className="font-bold tracking-tight  text-[4vw] pt-[15vh] text-[var(--foreground)] text-center">
+        <h1 className="font-bold tracking-tight text-[4vw] pt-[15vh] text-[var(--foreground)] text-center">
           Be Your Own Bank. The Power of Private Banking
         </h1>
         <h2>Build a system where your dollars never stop working even when you use them.</h2>
@@ -68,11 +67,11 @@ export default function Page() {
           guaranteed compounding. Use it as a source to borrow against to seize other investment
           opportunities.
         </p>
-        <div className="flex justify-center">
+        <div className=" flex justify-center lg:mt-[10vh]">
           <Image
             src={bankingcirclebig}
             alt="Borrow, invest, grow, save"
-            className="animate-spin [animation-duration:20s]"
+            className="h-[200px] md:h-[300px] lg:h-[350px] w-auto animate-spin [animation-duration:20s] "
           />
         </div>
         <h2>Ready to explore how private banking fits into your financial plan?</h2>

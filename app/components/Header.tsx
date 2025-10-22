@@ -10,12 +10,12 @@ export default function Header() {
   const closeMenu = useCallback(() => setMenuOpen(false), []);
 
   return (
-    <header className="inset-x-0 z-100">
+    <header className="fixed top-0 z-100 ">
       <div className="fixed z-100">
         <MenuOverlay open={menuOpen} onClose={() => setMenuOpen(false)} />
       </div>
       {/* <div className=" relative h-30 z-40"> */}
-      <div>
+      <div className="bg-black">
         <div className="pointer-events-none fixed top-0 inset-x-0 bottom-[-16px] h-[60vw] lg:h-[30vw] bg-gradient-to-b from-[color:var(--background)]/100 from-20% to-transparent to-50%" />
         <div
           onClick={openMenu}

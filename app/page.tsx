@@ -86,11 +86,11 @@ San Diego Annuity Shop is an independent, local retirement income agency helping
               Your money works harder when it's never sitting still.
             </span>
           </div>
-          <div className="flex justify-center items-center  lg:mb-[100px] ">
+          <div className="flex justify-center   lg:mb-[100px] ">
             <Image
               src={bankingcircle}
               alt="Borrow, Invest, Grow, repay"
-              className="animate-spin [animation-duration:20s] z-10"
+             className="h-[200px] md:h-[300px] lg:h-[350px] w-auto animate-spin [animation-duration:20s] "
               width={300}
             />
           </div>
