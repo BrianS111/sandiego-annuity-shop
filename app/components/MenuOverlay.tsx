@@ -39,7 +39,7 @@ export default function MenuOverlay({ open, onClose }: MenuOverlayProps) {
   return (
     <div
       className={[
-        "fixed inset-0  z-50 flex flex-col items-center gap-[10vh] ",
+        "fixed inset-0  z-110 flex flex-col items-center gap-[10vh] ",
         "bg-[#F8F5EF]",
         "transition-all duration-500 ease-[cubic-bezier(.22,.61,.36,1)]  ",
         open

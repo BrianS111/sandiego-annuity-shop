@@ -57,8 +57,8 @@ export default function Page() {
         <p className="p-section">
           With an IUL, your cash value keeps earning interest even when you borrow against it.
           Instead of withdrawing funds, you can borrow from your policy while your money stays
-          invested and continues to compound. It's the foundation of the “be your own bank” strategy
-          — liquidity without giving up performance.
+          invested and continues to compound. It's the foundation of the “be your own bank” strategy:
+          <strong> liquidity without giving up performance.</strong>
         </p>
         <h2>
           Growth. <br /> Access.
@@ -160,7 +160,7 @@ export default function Page() {
         <h2>Build your own tax-free plan.</h2>
         <p className="p-section mb-25">
           We'll walk you through how an IUL can work for your goals, growth, protection, or
-          legacy—without pressure or jargon.
+          legacy without pressure or jargon.
         </p>
         <Link
           href="/#contact-form"
