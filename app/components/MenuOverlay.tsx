@@ -106,7 +106,7 @@ export default function MenuOverlay({ open, onClose }: MenuOverlayProps) {
           </ul>
         </nav>
       </div>
-      <div className="flex relative flex-col  h-full justify-between w-full">
+      <div className="flex relative flex-col  h-full justify-between w-full ">
         <Link href="/#contact-form" onClick={onClose} scroll={true}>
           <div className="  w-[300px] group cursor-pointer ">
             <button className="translate-y-[25%] cursor-pointer absolute left-[50%] translate-x-[-50%] text-[color:var(--foreground)] disabled:opacity-60 text-2xl group-hover:text-[#5C94BF] group-hover:[text-shadow:0_0_6px_rgba(37,99,235,0.45)] duration-400">
@@ -125,7 +125,7 @@ export default function MenuOverlay({ open, onClose }: MenuOverlayProps) {
             </div>
           </div>
         </Link>
-        <div className="px-15 flex  flex-col gap-5">
+        <div className="px-6 flex  flex-col gap-5 ">
           <div>619-357-6823</div>
           <div>brian@sandiegoannuityshop.com</div>
           <div>sandiegoannuityshop.com</div>

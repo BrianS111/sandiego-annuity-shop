@@ -5,7 +5,7 @@ export default function BlogPage() {
   const sorted = [...posts].sort((a, b) => (a.date ?? "") < (b.date ?? "") ? 1 : -1)
 
   return (
-    <main className="mx-auto max-w-3xl px-4 pt-28 pb-28">
+    <main className="mx-auto w-full px-4 pt-28 pb-28">
       <h1 className="text-3xl font-bold text-gray-900 mb-8">Blog</h1>
 
       <div className="space-y-8">
