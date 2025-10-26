@@ -81,7 +81,11 @@ export default function MenuOverlay({ open, onClose }: MenuOverlayProps) {
                 IUL
               </Link>
             </li>
-            <Circle fill="#1a1a1a" className="lg:h-[1vw]  h-[2vw]" />
+            <Circle
+              fill="#1a1a1a"
+              className="lg:h-[1vw] 
+             h-[2vw]"
+            />
             <li>
               <Link
                 href="/private-banking"
