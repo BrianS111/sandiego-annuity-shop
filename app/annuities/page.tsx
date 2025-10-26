@@ -24,9 +24,12 @@ export default function Page() {
   return (
     <main>
       <Section>
+       
+
         <h1 className="font-bold tracking-tight  text-[4vw] pt-[10vh] lg:pt-[15vh] text-[var(--foreground)] text-center">
           Fixed & Indexed Annuities
         </h1>
+
         <h2 className="mt-4 text-[7vw] pt-[1vh] font-playfair text-[var(--foreground)]">
           Annuities have evolved. These arent the ones your grandfather bought.
         </h2>
