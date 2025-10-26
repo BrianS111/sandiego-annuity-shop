@@ -1,11 +1,9 @@
 import createMDX from '@next/mdx'
 import type { NextConfig } from 'next'
 
-// Keep options serializable if/when you go back to Turbopack.
-// (No custom functions for remark/rehype here.)
 const withMDX = createMDX({
   extension: /\.mdx?$/,
-  options: {}
+  options: {} // keep serializable if you ever try Turbopack later
 })
 
 const nextConfig: NextConfig = {
