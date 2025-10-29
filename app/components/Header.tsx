@@ -23,7 +23,7 @@ export default function Header() {
           aria-expanded={menuOpen}
           aria-controls="main-menu"
           aria-label="Open menu"
-          className="z-50 fixed top-2 left-1/2 -translate-x-1/2  cursor-pointer w-[10vw] lg:w-[7vw] xl:w-[5vw] h-[25px]"
+          className="z-50 fixed top-1 md:top-3  left-1/2 -translate-x-1/2  cursor-pointer w-[10vw] lg:w-[7vw] xl:w-[5vw] h-[25px]"
         >
           <div className="w-[10vw] lg:w-[7vw] xl:w-[5vw] h-[1px] md:h-[2px]  bg-[#1a1a1a] z-20 fixed top-4 md:top-3 left-1/2 -translate-x-1/2 "></div>
           <div className="w-[10vw] lg:w-[7vw] xl:w-[5vw] h-[1px] md:h-[2px]  bg-[#1a1a1a] z-20 fixed top-5 left-1/2 -translate-x-1/2 "></div>
@@ -31,7 +31,7 @@ export default function Header() {
 
         <Link
           href="/"
-          className="fixed top-10 left-1/2 -translate-x-1/2 w-[30vw] lg:w-[20vw] block z-40"
+          className="fixed top-5  left-1/2 -translate-x-1/2 w-[45vw] lg:w-[35vw] xl:w-[30vw] block z-40"
         >
           <Image
             src="/images/SanDiegoAnnuityShop_Logo_Web_1500x750-removebg.png"
@@ -43,8 +43,10 @@ export default function Header() {
           />
         </Link>
       </div>
+      {/* <p className="text-[#25314C] text-[5px] font-light tracking-wide fixed top-22 left-1/2 -translate-x-1/6 w-full">
+        Smarter Protection. Built for Growth™
+      </p> */}
 
-      {/* Gradient fade under header */}
     </header>
   );
 }
