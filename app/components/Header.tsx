@@ -31,7 +31,7 @@ export default function Header() {
 
         <Link
           href="/"
-          className="fixed top-5  left-1/2 -translate-x-1/2 w-[45vw] lg:w-[35vw] xl:w-[30vw] block z-40"
+          className="fixed top-5  left-1/2 -translate-x-1/2 w-[45vw] lg:w-[30vw] xl:w-[25vw] block z-40"
         >
           <Image
             src="/images/SanDiegoAnnuityShop_Logo_Web_1500x750-removebg.png"
