@@ -13,7 +13,7 @@ export default function Home() {
       <Section>
         <div className="flex  items-center justify-center pt-[15vw] xl:pt-[18vw] md:pt-[150px]">
           <h1 className=" mb-15 text-[3vw]  w-[85%] text-center italic ">
-San Diego Annuity Shop is an independent, local retirement income agency helping San Diego retirees protect savings, secure income, and explore safe CD alternatives.
+San Diego Annuity Shop is an independent, local retirement income agency helping San Diego retirees protect savings, secure income, and explore safe CD alternatives. We proudly serve retirees across multiple states throughout the US.
           </h1>
         </div>
 
